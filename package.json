@@ -1,0 +1,17 @@
+{
+  "name": "sigab-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": "https://github.com/laisOmena/sigab-api",
+  "author": "sigab",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
