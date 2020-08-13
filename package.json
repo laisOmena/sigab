@@ -9,7 +9,8 @@
   "author": "sigab",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "firebase-tools": "^8.7.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
