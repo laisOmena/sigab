@@ -1,11 +1,10 @@
-const express = require("express");
+import express from "express";
+import routes from "./routes.js";
 
 const app = express();
 const port = 3333;
 
-routes.get("/", (req, res) => {
-  res.send("Hello World!");
-});
+app.use(routes);
 
 // Escutando a porta informada.
 app.listen(port, () => {
